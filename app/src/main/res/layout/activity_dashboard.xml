@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#faedcd"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:focusable="true"
+        app:neumorph_shadowColorDark="#AFA690"
+        app:neumorph_shadowColorLight="#AFA690"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/pdf" />
+
+        </RelativeLayout>
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <!-- Neumorphism Card with EditText -->
+            <soup.neumorphism.NeumorphCardView
+                android:layout_weight="1"
+                android:id="@+id/p1"
+                android:layout_width="135dp"
+                android:layout_height="150dp"
+                app:neumorph_shadowColorDark="#AFA690"
+                app:neumorph_shadowColorLight="#AFA690"
+                app:neumorph_shadowElevation="5dp"
+                app:neumorph_shapeType="flat"
+
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/capsmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/pdf" />
+
+
+                </RelativeLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:clickable="true"
+                android:id="@+id/p2"
+                android:layout_weight="1"
+                android:layout_width="135dp"
+                android:layout_height="150dp"
+                android:focusable="true"
+                app:neumorph_shadowColorDark="#AFA690"
+                app:neumorph_shadowColorLight="#AFA690"
+                app:neumorph_shadowElevation="5dp"
+                app:neumorph_shapeType="flat"
+
+                >
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/pdf" />
+
+
+                </RelativeLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/p3"
+                android:layout_weight="1"
+                android:layout_width="135dp"
+                android:layout_height="150dp"
+                app:neumorph_shadowColorDark="#AFA690"
+                app:neumorph_shadowColorLight="#AFA690"
+                app:neumorph_shadowElevation="5dp"
+                app:neumorph_shapeType="flat"
+
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/pdf" />
+
+
+                </RelativeLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- Neumorphism Card with EditText -->
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:neumorph_shadowColorDark="#AFA690"
+            app:neumorph_shadowColorLight="#AFA690"
+            app:neumorph_shadowElevation="5dp"
+            app:neumorph_shapeType="flat"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/pdf" />
+
+
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <!-- Neumorphism Card with EditText -->
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:neumorph_shadowColorDark="#AFA690"
+            app:neumorph_shadowColorLight="#AFA690"
+            app:neumorph_shadowElevation="5dp"
+            app:neumorph_shapeType="flat"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/pdf" />
+
+
+
+
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- Neumorphism Card with EditText -->
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:neumorph_shadowColorDark="#AFA690"
+            app:neumorph_shadowColorLight="#AFA690"
+            app:neumorph_shadowElevation="5dp"
+            app:neumorph_shapeType="flat"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/pdf" />
+
+
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <!-- Neumorphism Card with EditText -->
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/arbi"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:neumorph_shadowColorDark="#AFA690"
+            app:neumorph_shadowColorLight="#AFA690"
+            app:neumorph_shadowElevation="5dp"
+            app:neumorph_shapeType="flat"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/pdf" />
+
+
+
+
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- Neumorphism Card with EditText -->
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:neumorph_shadowColorDark="#AFA690"
+                    app:neumorph_shadowColorLight="#AFA690"
+                    app:neumorph_shadowElevation="5dp"
+                    app:neumorph_shapeType="flat"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/pdf" />
+
+
+                    </LinearLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <!-- Neumorphism Card with EditText -->
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:neumorph_shadowColorDark="#AFA690"
+                    app:neumorph_shadowColorLight="#AFA690"
+                    app:neumorph_shadowElevation="5dp"
+                    app:neumorph_shapeType="flat"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/pdf" />
+
+
+
+
+                    </LinearLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- Neumorphism Card with EditText -->
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:neumorph_shadowColorDark="#AFA690"
+                    app:neumorph_shadowColorLight="#AFA690"
+                    app:neumorph_shadowElevation="5dp"
+                    app:neumorph_shapeType="flat"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/pdf" />
+
+
+                    </LinearLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+
+
+                <!-- Neumorphism Card with EditText -->
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:neumorph_shadowColorDark="#AFA690"
+                    app:neumorph_shadowColorLight="#AFA690"
+                    app:neumorph_shadowElevation="5dp"
+                    app:neumorph_shapeType="flat"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/pdf" />
+
+
+
+
+                    </LinearLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+            </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
